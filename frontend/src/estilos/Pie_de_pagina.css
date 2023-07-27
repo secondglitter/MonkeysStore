@@ -1,0 +1,23 @@
+ .footer {
+  background-color: rgba(0, 93, 244, 0.8); /* Fondo transparente con un valor de transparencia de 0.5 */
+  padding-block: 1rem;
+  backdrop-filter: blur(5px); /* Difuminado con un radio de 5px */
+  border: 1px solid white;
+    text-align: center;
+    margin-top: auto; /* Esta propiedad empuja el footer hacia abajo */
+    font-size: 20px;
+    color: #fff;
+    animation: shine 3s ease-in-out infinite;
+  }
+
+  @keyframes shine {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 1.0);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+  }

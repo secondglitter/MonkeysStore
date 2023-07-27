@@ -1,0 +1,30 @@
+.typing-text {
+    color: #fff;
+    font-size: 42px;
+    font-weight: bold; /* Linea vertical parpadeante para simular el efecto de escritura */
+    padding-right: 5px;
+    animation: blink-caret 0.75s step-end infinite;
+    animation: shine 3s ease-in-out infinite;
+}
+
+@keyframes shine {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1.0);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+}
+
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }

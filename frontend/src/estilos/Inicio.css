@@ -1,0 +1,88 @@
+.inicio-container {
+    text-align: center;
+    padding: 20px;
+    background-image: url("../imagenes/fondo-espacio.jpg");
+    /* Ajusta el tamaño y el posicionamiento de la imagen de fondo según tus necesidades */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: moveBackground 30s linear infinite;
+  }
+  
+  @keyframes moveBackground {
+    100% {
+      background-position: 80% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+  /* Estilos para la bienvenida */
+  .bienvenida {
+    padding: 20px;
+    color: #fff;
+    animation: shine 3s ease-in-out infinite;
+  }
+
+  @keyframes shine {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 1.0);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+  }
+  
+  /* Estilos para la sección de contenido */
+  .contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: inline-block(2rf);
+    margin-top: 20px;
+  }
+  
+  /* Estilos para cada sección */
+  .seccion {
+    width:80%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* Nuevos estilos para fondo defuminado */
+    background-color: rgba(255, 255, 255, 0.1); /* Ajusta el valor de transparencia según tus preferencias */
+    backdrop-filter: blur(12px);
+  }
+  
+  /* Estilos para las imágenes */
+  .img111,
+  .img222 {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el texto */
+  .texto {
+    text-align: left;
+    color: #fff;
+    animation: shine 3s ease-in-out infinite;
+  }
+
+  @keyframes shine {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 1.0);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+  }

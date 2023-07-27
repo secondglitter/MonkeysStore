@@ -1,0 +1,113 @@
+.detalle-container {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: -125px;
+    margin-top: -125px;
+    background-image: url("../imagenes/fondo-espacio.jpg");
+    /* Ajusta el tamaño y el posicionamiento de la imagen de fondo según tus necesidades */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: moveBackground 50s linear infinite;
+  }
+  
+  @keyframes moveBackground {
+    100% {
+      background-position: 80% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+  /* Estilos para la bienvenida */
+  .detalle-1 {
+    padding: 20px;
+    color: #fff;
+    animation: shine 3s ease-in-out infinite;
+    font-size: 24px;
+  }
+
+  @keyframes shine {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  .detalle-2 {
+    width:50%;
+    margin-left: 330px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* Nuevos estilos para fondo defuminado */
+    background-color: rgba(255, 255, 255, 0.1); /* Ajusta el valor de transparencia según tus preferencias */
+    backdrop-filter: blur(80px);
+  }
+
+*{
+    margin: auto;
+}
+
+#producto{
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    clear: both;
+}
+
+.prod{
+    padding: 20px;
+    text-align: justify;
+}
+.prod img{
+    width: 50%;
+    display: flex;
+}
+
+#car{
+    cursor: pointer;
+}
+
+
+.bt-detalle {
+    width: 100%;
+    height: 60px;
+    border-radius: 40px;
+    background: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    animation: shine 3s ease-in-out infinite;
+    font-size: 24px;
+  }
+
+  @keyframes shine {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+  }
+
+
+.bt:hover {
+    background-color: #6b6d70;
+    border: 1px black solid;
+}

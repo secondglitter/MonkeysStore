@@ -1,0 +1,83 @@
+.seccion-categorias {
+    width:100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* Nuevos estilos para fondo defuminado */
+    background-color: rgba(255, 255, 255, 0.1); /* Ajusta el valor de transparencia según tus preferencias */
+    backdrop-filter: blur(12px);
+  }
+
+  .fondo-categorias {
+    text-align: center;
+    padding: 20px;
+    background-image: url("../imagenes/fondo-espacio.jpg");
+    /* Ajusta el tamaño y el posicionamiento de la imagen de fondo según tus necesidades */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: moveBackground 30s linear infinite;
+  }
+  
+  @keyframes moveBackground {
+    100% {
+      background-position: 80% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+  .texto-categorias {
+    padding: 20px;
+    color: #fff;
+    animation: shine 3s ease-in-out infinite;
+    text-align: center;
+  }
+
+  @keyframes shine {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 1.0);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+  }
+
+.categorias {
+    text-align: center;
+    margin-top: 20px;
+    background-color:#555555;
+}
+
+.categorias h2 {
+    margin-bottom: 10px;
+}
+
+.categoria {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.categoria img {
+    width: 400px;
+    height: auto;
+}
+
+.categoria h3 {
+    margin-top: 5px;
+}
+
+.centrarcategorias {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'sans-serif';
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+}

@@ -1,0 +1,136 @@
+/* .centrarlista {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'sans-serif';
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+*/
+
+.productos {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+    border-color: grey;
+}
+
+.productos h2 {
+    margin-bottom: 10px;
+}
+
+.productos-lista {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos-lista li {
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.productos-lista img {
+    width: 200px;
+    height: auto;
+}
+
+.productos-lista h3 {
+    margin-top: 5px;
+    border-style: outset;
+    border-color: gray;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+.productos-lista p {
+    margin-top: 5px;
+    border-style: outset;
+    border-color: grey;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+.productos-lista form {
+    margin-top: 10px;
+}
+
+.productos-lista label {
+    display: block;
+}
+
+.productos-lista input[type="number"] {
+    width: 50px;
+}
+
+.productos-lista input[type="submit"] {
+    margin-top: 5px;
+}.productos {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+    border-color: grey;
+}
+
+.productos h2 {
+    margin-bottom: 10px;
+}
+
+.productos-lista {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos-lista li {
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.productos-lista img {
+    width: 200px;
+    height: auto;
+}
+
+.productos-lista h3 {
+    margin-top: 5px;
+    border-style: outset;
+    border-color: gray;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+.productos-lista p {
+    margin-top: 5px;
+    border-style: outset;
+    border-color: grey;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+.productos-lista form {
+    margin-top: 10px;
+}
+
+.productos-lista label {
+    display: block;
+}
+
+.productos-lista input[type="number"] {
+    width: 50px;
+}
+
+.productos-lista input[type="submit"] {
+    margin-top: 5px;
+}
+
+
+

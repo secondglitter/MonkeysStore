@@ -1,0 +1,43 @@
+.cartContent{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+    color: black;
+}
+
+.cartContent > img {
+    height: 120px;
+    width: 100px;
+    text-align: center;
+}
+
+.cartTotal {
+    text-align: center;
+    margin: 20px 380px;
+}
+
+.counter-button{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cart-delete-button {
+    cursor: pointer;
+}
+
+.span-item{
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+}
+
+.cart-items-total {
+    position: absolute;
+    right: 112px; /* Ajusta que tan a la derecha esta */
+    top: 75px; /* Ajusta que tan arriba esta */
+    border-radius: 40%; /* Para hacerlo redondo */
+    font-size: 40px; /* Ajusta el valor para aumentar el tamaño del texto */
+}

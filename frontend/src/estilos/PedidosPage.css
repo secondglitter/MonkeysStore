@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Estilos generales */
+
+  
+  /* Estilos para el contenedor principal */
+  .pedidos-container {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Estilos para el encabezado */
+  .pedidos-container h1 {
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  /* Estilos para la tabla de pedidos */
+  .pedidos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .pedidos-table th, .pedidos-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  .pedidos-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .pedidos-table tr:hover {
+    background-color: #f9f9f9;
+  }
+
+  .pedidos-button{
+    text-align: center;
+    color: #fff;
+    width: 200px;
+    margin-left: 660px;
+    background-color: #333;
+  }
+  

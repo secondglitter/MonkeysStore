@@ -1,0 +1,119 @@
+.dash-fondo {
+  background-image: url('../imagenes/background2.jpg');
+}
+
+.nojaja {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sijaja {
+  background: #005DF4;
+  color: #fff;
+  padding: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dash-panel {
+  text-align: center;
+}
+
+.sunsa ul {
+  padding-top: 5px;
+}
+.lobato{
+  width: 75px;
+  float: right;
+  display: inline;
+  /*padding: TOP RIGTH BOTTOM LEFT */
+  padding: 5px 15px 5px 15px;
+  background-color: darkgray;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.lobato:hover{
+  background-color: gray;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.nojaja {
+  display: grid;
+  grid-template-columns: repeat(2, 350px); /* Mostrar 2 columnas */
+  justify-content: center;
+  justify-items: center; /* Centrar las tarjetas */
+  padding: 20px;
+  grid-gap: 100px; /* Espacio entre las tarjetas */
+}
+
+.dash-widget h2 {
+  color: #000000;
+}
+
+.dash-widget p {
+  color: #000000;
+}
+
+.dash-ir {
+  background-color: blue;
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.2s ease;
+
+}
+
+.dash-ir:hover {
+  background-color: darkblue;
+}
+
+.dash-ir:active {
+  background-color: #000;
+}
+
+.dash-salir:hover {
+  background-color: darkblue;
+}
+
+.dash-salir:active {
+  background-color: #000;
+}
+
+.dash-widget {
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  border-style: inherit;
+  backdrop-filter: blur(10px);
+  display: inline-block;
+   margin-bottom: 40px;
+    margin-right: 20px;
+    margin-left: 50px;
+    transition: transform 0.3s ease-in-out;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.dash-centrar {
+  text-align: center;
+  color: black;
+}
+
+.footer2{
+  background: #005DF4;
+   padding: 20px;
+  text-align: center;
+  margin-top: auto; /* Esta propiedad empuja el footer hacia abajo */
+  color:#fff;
+  font-size: 20px;
+}

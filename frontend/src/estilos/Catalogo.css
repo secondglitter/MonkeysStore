@@ -1,0 +1,83 @@
+.card-catalogo {
+    display: inline-block;
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 200px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* Nuevos estilos para fondo defuminado */
+    background-color: rgba(0, 102, 255, 0.4); /* Ajusta el valor de transparencia según tus preferencias */
+    backdrop-filter: blur(12px);
+  }
+  
+  .card-catalogo:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-catalogo img {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  
+  
+  .card-title {
+    padding: 20px;
+    color: #fff;
+    animation: shine 3s ease-in-out infinite;
+    text-align: center;
+  }
+
+  @keyframes shine {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 1.0);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+  }
+  
+  .card-texto-catalogo {
+    padding: 20px;
+    color: #fff;
+    animation: shine 3s ease-in-out infinite;
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  @keyframes shine {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 1.0);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+  }
+  
+  .btn-primary-catalogo {
+    background-color: #58a3f3;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .btn-primary-catalogo:hover {
+    background-color: #2067b3;
+  }
+

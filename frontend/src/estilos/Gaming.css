@@ -1,0 +1,102 @@
+.fondo-gaming {
+    text-align: center;
+    padding: 20px;
+    background-image: url("../imagenes/fondo-espacio.jpg");
+    /* Ajusta el tamaño y el posicionamiento de la imagen de fondo según tus necesidades */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: moveBackground 60s linear infinite;
+  }
+
+  @keyframes moveBackground {
+    100% {
+      background-position: 80% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+.card-gaming {
+    display: inline-block;
+    width: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 200px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* Nuevos estilos para fondo defuminado */
+    background-color: rgba(0, 102, 255, 0.4); /* Ajusta el valor de transparencia según tus preferencias */
+    backdrop-filter: blur(12px);
+  }
+  
+  .card-gaming:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-gaming img {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  
+  
+  .card-title-gaming {
+    padding: 20px;
+    color: #fff;
+    animation: shine 3s ease-in-out infinite;
+    text-align: center;
+  }
+
+  @keyframes shine {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 1.0);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+  }
+  
+  .card-texto-gaming {
+    padding: 20px;
+    color: #fff;
+    animation: shine 3s ease-in-out infinite;
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  @keyframes shine {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 1.0);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+  }
+  
+  .btn-primary-gaming {
+    background-color: #58a3f3;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .btn-primary-gaming:hover {
+    background-color: #2067b3;
+  }
